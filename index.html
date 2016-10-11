@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gluneko's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Muli|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <section class="container">
+        <header class="row">
+            <div class="col-md-6 title-left">
+                <picture>
+                    <source media="(min-width: 621px)" srcset="img/logo-200_large_2x.jpg 2x, img/logo-100_large_1x.jpg" />
+                    <img class="title-logo" src="img/logo-100_large_1x.jpg" alt="My school logo!">
+                </picture>
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-super text-light">Gluneko</h1>
+                <h4 class="title-normal">Front-end ninja</h4>
+            </div>
+        </header>
+        <section class="row">
+            <div class="col-md-12">
+                <hr class="line">
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="img/gluneko-2000_large_2x.jpg 2x, img/gluneko-1000_large_1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="img/gluneko-medium.jpg" />
+                    <img class="img-responsive main-img" src="img/gluneko-small.jpg" alt="Main cat image!">
+                </picture>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted work-title">Featured work</h2>
+            </div>
+        </section>
+        <section class="row text-center">
+            <!-- TODO: 3 columns in featured works on desktop -->
+            <article class="col-md-4 work">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="img/cat1-600_large_2x.jpg 2x, img/cat1-300_large_1x.jpg" />
+                    <img class="img-responsive work-img" src="img/cat1-medium.jpg" alt="Magician cat" data-toggle="modal" data-target="#cat1">
+                </picture>
+                <h2 class="text-uppercase work-title">Magician</h2>
+                <p>https://github.com/Gluneko</p>
+            </article>
+            <article class="col-md-4 work">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="img/cat2-600_large_2x.jpg 2x, img/cat2-300_large_1x.jpg" />
+                    <img class="img-responsive work-img" src="img/cat2-medium.jpg" alt="Model cat" data-toggle="modal" data-target="#cat2">
+                </picture>
+                <h2 class="text-uppercase work-title">Model</h2>
+                <p>https://github.com/Gluneko</p>
+            </article>
+            <article class="col-md-4 work">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="img/cat3-600_large_2x.jpg 2x, img/cat3-300_large_1x.jpg" />
+                    <img class="img-responsive work-img" src="img/cat3-medium.jpg" alt="Child cat" data-toggle="modal" data-target="#cat3">
+                </picture>
+                <h2 class="text-uppercase work-title">Child</h2>
+                <p>https://github.com/Gluneko</p>
+            </article>
+        </section>
+    </section>
+    <!-- TODO: add three modals -->
+     <div class="modal fade" id="cat1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Magician</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="img/cat1-600_large_2x.jpg 2x, img/cat1-300_large_1x.jpg" />
+                        <img class="img-responsive work-img" src="img/cat1-medium.jpg" alt="Magician cat" data-toggle="modal" data-target="#cat1">
+                    </picture>
+                    My name is Gluneko,a graduate student.Nice to meet you!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cat2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Model</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="img/cat2-600_large_2x.jpg 2x, img/cat2-300_large_1x.jpg" />
+                        <img class="img-responsive work-img" src="img/cat2-medium.jpg" alt="Model cat" data-toggle="modal" data-target="#cat2">
+                    </picture>
+                    This is my portfolio.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cat3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Child</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="img/cat3-600_large_2x.jpg 2x, img/cat3-300_large_1x.jpg" />
+                        <img class="img-responsive work-img" src="img/cat3-medium.jpg" alt="Child cat" data-toggle="modal" data-target="#cat3">
+                    </picture>
+                    Contact with me by email:844410616@qq.com.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
